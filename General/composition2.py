@@ -12,7 +12,9 @@ class Llantas:
 class Carro:
     def __init__(self, modelo, caballos_fuerza, rin_llanta):
         self.modelo = modelo
-        
+        # Los atributos de la clase Motor y Llantas son objetos de esas clases
+        # que se crean al instanciar la clase Carro.
+        # estos pertenecen a la clase Carro, sin la clase carro no existirían
         self.caballos_fuerza = Motor(caballos_fuerza)
         self.rin_llanta = Llantas(rin_llanta)
     
