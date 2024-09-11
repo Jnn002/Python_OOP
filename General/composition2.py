@@ -21,7 +21,8 @@ class Carro:
     # Método para mostrar los detalles del carro
     def detalles_carro(self):
         return f"Modelo: {self.modelo}\nCaballos de fuerza: {self.caballos_fuerza.caballos_fuerza}\nRin: {self.rin_llanta.rin}"
-        
+
+# Sin estas instancias a la clase carro, los objetos de la clase Motor y Llantas no existirían
 pick_up = Carro('Ford', 300, 22)
 carrito = Carro('Toyota', 200, 18)
 
