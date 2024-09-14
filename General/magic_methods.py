@@ -58,4 +58,4 @@ print(libro1['titulo']) # => El principito
 #print((libro1['editorial'])) # => Error: la clave editorial no existe
 
 #* Los métodos mágicos son muy útiles para personalizar el comportamiento de las clases en Python.
-# Los magic methods también se conocen como dunder methods,
+# Los magic methods también se conocen como dunder methods.
